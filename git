@@ -17,6 +17,10 @@ git commit -m "代码提交信息"
 
 5. 查看每次提交改动的标签
 git log
+git log --author=<user_name>
+git log --pretty=oneline    #一个压缩后的每一条提交记录只占一行的输出
+git log --graph --oneline --decorate --all  #树形结构来展示所有的分支, 每个分支都标示了他的名字和标签
+git log --name-status       #看看哪些文件改变了
 
 6. 推送改动到远端仓库HEAD
 git push origin master
@@ -40,3 +44,12 @@ git diff <source_branch> <target_branch>
 
 12. 将其他分支合并到当前分支
 git merge <branch>
+
+13. 替换掉本地改动
+git checkout --<filename>
+
+14. 丢弃你在本地的所有改动与提交
+git fetch origin    #服务器上获取最新的版本历史
+git reset --hard origin/master  #将你本地主分支指向它
+
+
