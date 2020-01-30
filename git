@@ -21,6 +21,7 @@ git log --author=<user_name>
 git log --pretty=oneline    #一个压缩后的每一条提交记录只占一行的输出
 git log --graph --oneline --decorate --all  #树形结构来展示所有的分支, 每个分支都标示了他的名字和标签
 git log --name-status       #看看哪些文件改变了
+git tag 1.0.0 <id>  #给提交发布<id>添加标签
 
 6. 推送改动到远端仓库HEAD
 git push origin master
