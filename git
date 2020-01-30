@@ -26,4 +26,7 @@ git checkout -b feature_x
 git checkout master
 git checkout feature_x
 
+8. 删掉分支
+git branch -d feature_x
+
 
