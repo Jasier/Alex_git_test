@@ -1,0 +1,13 @@
+server url used: https://github.com/Jasier/Alex_git_test.git
+
+1. 克隆仓库
+git clone /path/to/repo
+git clone username@host:/path/to/repo
+
+2. 添加任何更改到暂存区
+git add <file_name>
+git add *
+
+3. 实际提交改动到HEAD
+git commit -m "代码提交信息"
+
