@@ -1,0 +1,8 @@
+server url used: https://github.com/Jasier/Alex_git_test.git
+
+工作区：增删文件和内容
+暂存区：键入命令 git add 改动的文件，此次改动就放到了 『暂存区』
+本地仓库 ：键入命令 git commit ，此次改动就放到了『本地仓库』，每个 commit，我叫它为一个 『版本』
+远程仓库：键入命令 git push 到远程仓库，此次改动就放到了 『远程仓库』
+
+
