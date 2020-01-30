@@ -37,3 +37,6 @@ git pull <remote> <branch>
 
 11. 阅览各分支的差异
 git diff <source_branch> <target_branch>
+
+12. 将其他分支合并到当前分支
+git merge <branch>
